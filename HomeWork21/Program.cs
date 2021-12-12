@@ -43,9 +43,9 @@ namespace HomeWork21
             {
                 for (int j = 0; j < Array.GetLength(1); j++)
                 {
-                    if (Array[i, j] == '$')
+                    if (Array[i, j] == '#')
                     {
-                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.ForegroundColor = ConsoleColor.Blue;
                     }
                     else if (Array[i, j] == '*')
                     {

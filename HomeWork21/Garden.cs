@@ -37,7 +37,7 @@ namespace HomeWork21
                 {
                     if (District[i, j] == '.')
                     {
-                        District[i, j] = '$';
+                        District[i, j] = '#';
                         Thread.Sleep((int)speed);
                     }
                 }
