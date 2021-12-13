@@ -78,7 +78,7 @@ namespace HomeWork21
                 }
             }
         }
-        static int SetGardenerSpeed(int count)
+        static int SetGardenerSpeed(int count)      //метод задающий скорость выполнения работ садовником
         {
             Console.WriteLine($"Выберите скорость работы садовника №{count}:\n1 - прокрастинатор\n2 - трудяга\n3 - стахановец");
             while (true)
@@ -103,6 +103,6 @@ namespace HomeWork21
                         break;
                 }
             }
-        }       //метод задающий скорость выполнения работ садовником
+        }       
     }
 }
